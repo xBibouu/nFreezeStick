@@ -1,0 +1,18 @@
+#NOM DE L'ITEM
+item_name: "stick"
+
+canHitFreezePlayer: false
+#ANVIL BREAK SOUND
+playSound: true
+
+entityFreezedMsgType: "title" #popup - title: message
+entityFreezedMsg: "§bFREEZE\n§f- Vous avez été freeze pendant x sec -"
+succes-freeze: "§aVous avez bien freeze le joueur"
+
+sendUnfreezeMsg: true
+unfreezeMessage: "§aVous êtes unfreeze"
+
+freeze-cooldown: 10
+cooldownTypeMessage: "popup" #popup - message
+cooldown: 60
+cooldown-message: "§cVous êtes en cooldown pendant {s} seconde(s)"
